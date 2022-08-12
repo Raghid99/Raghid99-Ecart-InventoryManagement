@@ -1,0 +1,38 @@
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50% !important;
+    grid-gap: 1em;
+    padding: 10px;
+}
+
+.innergrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1px;
+    padding: 0;
+}
+
+.control-group {
+    height: 0;
+    box-shadow: none;
+}
+
+.item2, .item1 {
+    text-align: right;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.grid > div {
+    padding: 2em;
+}
+
+.suggestions {
+    padding: 0.5em 0.5em;
+}
+
+.suggestions:hover {
+    background-color: #f3f3f3;
+}
